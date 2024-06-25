@@ -1,3 +1,30 @@
 Intro to tidyverse and data visulization using ggplot:
 
-  
+  {r setup, include=False}
+            telling R not include in the output 
+
+
+  Tidyverse: package make datascience easay 
+
+  instal.packagess("tidyverse")
+
+  library(tidyverse)
+  #import the tidyverse package
+
+  library(lubridate) #included in the tidyverse but need to be imported 
+
+  str(matrix) # the structure of the matrix
+  dim() # the dimention of the matrix
+  nrow #output the row
+  ncol # the colomn
+
+
+  Histogram 
+
+  ggplot(ice) +   #using the ice as the first input of the ggplot
+    geon_histogram(aes(x=duration) )    #adding another layer ontop 
+                    #aes = the colomn that we care 
+                    #this line means to thake the duration colomn from the ice matrix and make it into the x access. 
+
+    #can add different layer on ggplot,
+    
